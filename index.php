@@ -7,6 +7,7 @@
     <link href="bs.5.3.3/bootstrap.min.css" rel="stylesheet">
     <script src="bs.5.3.3/bootstrap.bundle.min.js" defer></script>
     <script src="bs.5.3.3/js/script.js" defer></script>
+    <script src="bs.5.3.3/js/lodash.min.js" defer></script>
 </head>
 <body>
     <div class="container mt-5">

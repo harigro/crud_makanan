@@ -54,7 +54,7 @@ async function loadData() {
             const tr = document.createElement('tr');
             tr.innerHTML = `
                 <td>${item.id}</td>
-                <td>${formattedValue(item.nama)}</td>
+                <td>${_.startCase(item.nama)}</td>
                 <td>${formattedValue(item.harga)}</td>
                 <td>
                     <button class="btn btn-warning btn-sm" onclick="editData(${item.id}, '${item.nama}', ${item.harga})">Edit</button>
